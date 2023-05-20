@@ -13,7 +13,8 @@ function sum(suma, arr) {
         suma = suma + arr[i];
     
     }
-
+    console.log("El arreglo tiene ",arr.length," elementos ");
+    console.log("Estos son los elementos del arreglo: ",arr);
     console.log("La suma de los elementos del arreglo es ",suma)
 }
 
